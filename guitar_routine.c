@@ -169,9 +169,7 @@ void ShowArpeggio() {
     printf("%s", x);
 }
 
-int main() {
-    srand((unsigned int) time(NULL));
-
+void ShowOne() {
     printf("“ÙΩ◊¡∑œ∞: ");
     ShowKey();
     printf(" ");
@@ -186,7 +184,13 @@ int main() {
     printf("≈√“Ù¡∑œ∞: ");
     ShowArpeggio();
     printf("\n");
+}
 
-    getchar();
+int main() {
+    srand((unsigned int) time(NULL));
+
+    do {
+        ShowOne();
+    } while (getchar());
     return 0;
 }
