@@ -3,4 +3,4 @@ project(learn_c C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(learn_c random_key.c)
+add_executable(learn_c guitar_routine.c)
