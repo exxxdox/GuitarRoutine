@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.24)
-project(learn_c C)
+project(guitar C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(learn_c guitar_routine.c)
+add_executable(guitar guitar_routine.c)
